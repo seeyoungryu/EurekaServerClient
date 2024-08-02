@@ -28,6 +28,7 @@
 - 각 서비스는 Eureka 서버에 자신을 등록해야 함
 - `spring-cloud-starter-netflix-eureka-client` 의존성을 사용하고, 애플리케이션 이름만 설정파일에 있으면 Eureka에 등록됨
 
+### 1.2.4 Run
 
-
-  
+- 유레카 서버 → first → second 순으로 실행
+- http://localhost:19090/ 으로 접속하면 두개의 인스턴스가 있는것을 확인할 수 있음
